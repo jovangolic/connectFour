@@ -1,1 +1,1 @@
-worker: javac Main.java && java Main
+worker: java Main
