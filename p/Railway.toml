@@ -1,0 +1,3 @@
+[service]
+build = "javac p/*.java"
+start = "java p.Main"
