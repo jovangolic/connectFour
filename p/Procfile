@@ -1,1 +1,1 @@
-worker: java -jar target/connectFour.jar
+worker: javac Main.java && java Main
