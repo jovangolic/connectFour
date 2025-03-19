@@ -2,7 +2,7 @@
 nixPkgs = ["openjdk"]
 
 [phases.build]
-cmds = ["javac Main.java"]
+cmds = ["javac *.java"]
 
 [start]
 cmd = "java Main"
